@@ -1,0 +1,6 @@
+1. Write a program that stores a list of subjects name and scores and then calculates students' grades based on the scores.
+
+2. Write three funtions:
+    function main
+    function sum
+    function multi
