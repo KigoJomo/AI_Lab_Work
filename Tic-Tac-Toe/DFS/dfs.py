@@ -4,7 +4,7 @@ def print_board(board):
     """Prints the current state of the board."""
     for row in board:
         print(" | ".join(row))
-        print("-" * 5)
+        print("-" * 10)
 
 def is_winner(board, player):
     """Checks if the specified player has won the game."""
