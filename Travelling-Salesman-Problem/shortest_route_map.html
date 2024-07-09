@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_58c8a83efb64d0538f003cd6a1862bf9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_58c8a83efb64d0538f003cd6a1862bf9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_58c8a83efb64d0538f003cd6a1862bf9 = L.map(
+                "map_58c8a83efb64d0538f003cd6a1862bf9",
+                {
+                    center: [-1.286389, 36.817223],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_02729e2bb1ab038fe41e349e0056139e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_02729e2bb1ab038fe41e349e0056139e.addTo(map_58c8a83efb64d0538f003cd6a1862bf9);
+        
+    
+            var marker_5fc4a2970bc4531fcbc4c188620e909e = L.marker(
+                [-1.286389, 36.817223],
+                {}
+            ).addTo(map_58c8a83efb64d0538f003cd6a1862bf9);
+        
+    
+        var popup_d9b405e390335f988b4a032167b2fc8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2392b26a136db93da927d5392657509c = $(`<div id="html_2392b26a136db93da927d5392657509c" style="width: 100.0%; height: 100.0%;">Nairobi</div>`)[0];
+                popup_d9b405e390335f988b4a032167b2fc8c.setContent(html_2392b26a136db93da927d5392657509c);
+            
+        
+
+        marker_5fc4a2970bc4531fcbc4c188620e909e.bindPopup(popup_d9b405e390335f988b4a032167b2fc8c)
+        ;
+
+        
+    
+    
+            var marker_b65185ac7684b89f96619197cd4a5130 = L.marker(
+                [-0.4245, 36.9434],
+                {}
+            ).addTo(map_58c8a83efb64d0538f003cd6a1862bf9);
+        
+    
+        var popup_a637a80b5b035b95df5b5964de81a95d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_673a2adef428137bc05840fb3f7af9c3 = $(`<div id="html_673a2adef428137bc05840fb3f7af9c3" style="width: 100.0%; height: 100.0%;">Nyeri</div>`)[0];
+                popup_a637a80b5b035b95df5b5964de81a95d.setContent(html_673a2adef428137bc05840fb3f7af9c3);
+            
+        
+
+        marker_b65185ac7684b89f96619197cd4a5130.bindPopup(popup_a637a80b5b035b95df5b5964de81a95d)
+        ;
+
+        
+    
+    
+            var marker_f6b54043ea0781858571ab9ca96b020b = L.marker(
+                [-0.3031, 36.08],
+                {}
+            ).addTo(map_58c8a83efb64d0538f003cd6a1862bf9);
+        
+    
+        var popup_9c4cba33b34fd77ca5d16b26fba7b3db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c52761dcf4fa4cb61947104c7c754294 = $(`<div id="html_c52761dcf4fa4cb61947104c7c754294" style="width: 100.0%; height: 100.0%;">Nakuru</div>`)[0];
+                popup_9c4cba33b34fd77ca5d16b26fba7b3db.setContent(html_c52761dcf4fa4cb61947104c7c754294);
+            
+        
+
+        marker_f6b54043ea0781858571ab9ca96b020b.bindPopup(popup_9c4cba33b34fd77ca5d16b26fba7b3db)
+        ;
+
+        
+    
+    
+            var marker_0994db9e1a82a8b2920475d54777ce72 = L.marker(
+                [0.3142, 36.7848],
+                {}
+            ).addTo(map_58c8a83efb64d0538f003cd6a1862bf9);
+        
+    
+        var popup_b61e6136e808450f2458bb61c0123a9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f669b883c71416e43ac883b51c0cd82 = $(`<div id="html_2f669b883c71416e43ac883b51c0cd82" style="width: 100.0%; height: 100.0%;">Laikipia</div>`)[0];
+                popup_b61e6136e808450f2458bb61c0123a9e.setContent(html_2f669b883c71416e43ac883b51c0cd82);
+            
+        
+
+        marker_0994db9e1a82a8b2920475d54777ce72.bindPopup(popup_b61e6136e808450f2458bb61c0123a9e)
+        ;
+
+        
+    
+    
+            var marker_3a846f7d09d8f74ff6f26d87581dee93 = L.marker(
+                [0.1742, 35.0961],
+                {}
+            ).addTo(map_58c8a83efb64d0538f003cd6a1862bf9);
+        
+    
+        var popup_bf2512ba6eaeb6e172104a9d6ea11315 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb03b19d6724a55e30e1c97c78dd4608 = $(`<div id="html_cb03b19d6724a55e30e1c97c78dd4608" style="width: 100.0%; height: 100.0%;">Nandi</div>`)[0];
+                popup_bf2512ba6eaeb6e172104a9d6ea11315.setContent(html_cb03b19d6724a55e30e1c97c78dd4608);
+            
+        
+
+        marker_3a846f7d09d8f74ff6f26d87581dee93.bindPopup(popup_bf2512ba6eaeb6e172104a9d6ea11315)
+        ;
+
+        
+    
+    
+            var marker_470f17c6d6863a05fb159a19ffec556b = L.marker(
+                [0.047, 37.6499],
+                {}
+            ).addTo(map_58c8a83efb64d0538f003cd6a1862bf9);
+        
+    
+        var popup_e50585048da276b5a136f4a4d0e2ad8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e38ad06719b43c0c181ad3c673ddb16 = $(`<div id="html_6e38ad06719b43c0c181ad3c673ddb16" style="width: 100.0%; height: 100.0%;">Meru</div>`)[0];
+                popup_e50585048da276b5a136f4a4d0e2ad8c.setContent(html_6e38ad06719b43c0c181ad3c673ddb16);
+            
+        
+
+        marker_470f17c6d6863a05fb159a19ffec556b.bindPopup(popup_e50585048da276b5a136f4a4d0e2ad8c)
+        ;
+
+        
+    
+    
+            var poly_line_421f5e8876fdcb2d35c961ad0485dfab = L.polyline(
+                [[-1.286389, 36.817223], [-0.4245, 36.9434], [0.3142, 36.7848], [0.047, 37.6499], [0.1742, 35.0961], [-0.3031, 36.08], [-1.286389, 36.817223], [-1.286389, 36.817223]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_58c8a83efb64d0538f003cd6a1862bf9);
+        
+</script>
+</html>
